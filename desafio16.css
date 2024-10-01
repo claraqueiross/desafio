@@ -1,0 +1,18 @@
+body{
+    height: 100%;
+    min-height: 100%;
+    background: linear-gradient(90deg, #a120c9, #a18da1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela{
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(224, 248, 6);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
