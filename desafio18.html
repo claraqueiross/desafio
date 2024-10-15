@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cálculo de Reajuste Salarial</title>
+    <link rel="stylesheet" href="desafio18.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Reajuste Salarial Composto</h1>
+        <div class="form-group">
+            <label for="salario">Salário Inicial:</label>
+            <input type="number" id="salario" step="0.01">
+        </div>
+        <div class="form-group">
+            <label for="anos">Número de Anos:</label>
+            <input type="number" id="anos">
+        </div>
+        <div class="form-group">
+            <label for="percentual">Percentual de Reajuste Anual (%):</label>
+            <input type="number" id="percentual" step="0.01">
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="desafio18.js"></script>
+</body>
+</html>
